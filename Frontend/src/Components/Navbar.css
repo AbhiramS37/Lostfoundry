@@ -1,0 +1,50 @@
+.navc {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000000;
+    backdrop-filter: blue(20px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    border-radius: 10px;
+    padding: 0px;
+
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(247, 255, 255);
+}
+
+.logo-img {
+    height: 45px;
+    width: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(247, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    text-decoration: wavy;
+    color: rgb(191, 240, 240);
+}

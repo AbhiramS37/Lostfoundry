@@ -1,0 +1,67 @@
+.account-page {
+    height: 100vh;
+    background: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Times New Roman", Times, serif;
+    padding: 0 20px;
+}
+
+.account-header {
+    margin-bottom: 40px;
+}
+
+.account-header h2 {
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+}
+
+.account-body {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    border: 3px solid #a5a5a5;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 50px;
+    color: #333;
+    text-align: center;
+}
+
+.user-info p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+
+.buttons {
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.logout-btn {
+    background-color: #ff011a;
+}
+
+.logout-btn:hover {
+    background-color: #be0f21;
+}

@@ -1,0 +1,91 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(28, 34, 34);
+    color: rgb(255, 255, 255);
+}
+
+.about-container {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.about-content {
+    max-width: 100%;
+}
+
+.about-content h1 {
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+    text-decoration: underline;
+
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.mission-section {
+    margin-top: 35px;
+    padding: 20px;
+    background: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    max-width: 800px;
+}
+
+.mission-section h2 {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.mission-section p {
+    font-size: 1.2rem;
+}
+
+.highlight-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.info-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.info-card {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.info-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.info-card p {
+    font-size: 1rem;
+    color: #ffffff;
+}
